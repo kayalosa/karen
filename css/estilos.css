@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"( Sunday Morning.ttf"
+    
+        
+}
+
+
+body{
+	background-color:lightpink; 
+	font-family:sans-serif;
+}
+
+h1,h2{
+	color:#750D94;
+}
+
+ h3{
+	color:#b44c43;
+	
+}
+
+header{
+	background-color:pink; 
+	color:#fff;
+	padding: 8px;
+	text-align: center;
+    border-top: 2px dashed #b44c43;
+    margin:10px auto;
+   
+}
+
+footer{
+	background-color:#b44c43; 
+	color:#fff;
+	padding: 25px;
+	text-align: center;
+}
+
+figuerequien{ 
+    float: center;
+    padding: 8px
+    }
+figurequien img{
+    padding: 9px;
+    background:#b44c43;
+    border-radius: 10px;
+    box-shadow: #b44c43 15px 10p;
+    -webkit-transition:-webkit-transform 0.4s ease-in-out 0.2s
+}
+figurequien img:hover{
+    -webkit-transform:scale(1.4)
+}
+
+#galeria{
+   width: 100%;
+    height: 700px;
+    border-top: 2px dashed #b44c43;
+    margin:20px auto;
+}
+
+figure{
+    float: left;
+    padding: 9px
+    
+}
+figure img{
+    padding: 9px;
+    background:#b44c43;
+    border-radius: 10px;
+    box-shadow: #b44c43 15px 10p;
+    -webkit-transition:-webkit-transform 0.4s ease-in-out 0.2s
+}
+figure img:hover{
+    -webkit-transform:scale(1.4)
+}
+figcaption{
+    font:normal 14px "mifuente";
+    text-align: center;
+    color: cornsilk;
+    margin-top:20px;
+}
+
+
+
+
+a{
+	color:palevioletred;
+}
+
+#titulogaleria
